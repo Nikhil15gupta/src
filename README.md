@@ -19,7 +19,7 @@ Place the `sample_input.csv` file in the same directory as `script.py`. This ens
 To run the script, use the `spark-submit` command from the terminal or command prompt. Navigate to the directory containing `script.py` and `sample_input.csv`, then execute the following command:
 
 ```bash
-spark-submit script.py sample_input.csv output.csv <time_bucket>
+spark-submit script.py sample_input.csv output <time_bucket>
 ```
 
 Replace `<time_bucket>` with your desired aggregation window. The script supports the following time buckets:
@@ -31,10 +31,10 @@ Replace `<time_bucket>` with your desired aggregation window. The script support
 For example, to aggregate data on a daily basis, use:
 
 ```bash
-spark-submit script.py sample_input.csv output.csv D
+spark-submit script.py sample_input.csv output D
 ```
 
-This will aggregate the data from `sample_input.csv` into daily buckets, calculating average, minimum, and maximum values for each metric, and write the results to `output.csv` in the same directory.
+This will aggregate the data from `sample_input.csv` into daily buckets, calculating average, minimum, and maximum values for each metric, and write the results to `output` in the same directory.
 
 ## Output
 
