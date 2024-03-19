@@ -1,0 +1,5 @@
+Metric,TimeBucket,AverageValue,MinValue,MaxValue
+temperature,2022-06-05T00:00:00.000-04:00,92.0,92.0,92.0
+precipitation,2022-06-05T00:00:00.000-04:00,0.2,0.2,0.2
+temperature,2022-06-04T00:00:00.000-04:00,88.5,88.0,89.0
+precipitation,2022-06-04T00:00:00.000-04:00,0.5,0.5,0.5
